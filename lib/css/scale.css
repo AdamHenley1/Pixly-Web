@@ -1,0 +1,12 @@
+@media (orientation: portrait) {
+    .background_circle1{
+        
+        height: 700px;
+        width: 700px;
+        
+    }
+    .background_circle2{
+        height: 500px;
+        width: 500px;
+    }
+}
