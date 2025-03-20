@@ -1,0 +1,13 @@
+#+title: Back End
+#+author: camilla a.
+
+
+* Overview
+Just a back end for Pixly.
+
+* "Why Have You Done ~X~ With ~Y~?"
+I'm using a makefile with clojure instead of lein or something like that because I only really like lein for independant projects, and I view this more as a plugin.
+Furthermore, I get the feeling that this is going to be distributed as a binary, so the build system isn't a massive concern for me.
+Also, it's not out of the question that I need to pull in a few more languages (probably java, emacs lisp, or shell), and gnu-make feels like a safe bet for handling that.
+
+I'm using clojure because I was told I need to use a jvm lanugage, and java is gross.
