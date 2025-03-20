@@ -4,6 +4,9 @@
 
 * Overview
 Just a back end for Pixly.
+This bit is maintained by ~github.com/vibe-876~.
+
+I'm writing it in clojure
 
 * "Why Have You Done ~X~ With ~Y~?"
 I'm using a makefile with clojure instead of lein or something like that because I only really like lein for independant projects, and I view this more as a plugin.
