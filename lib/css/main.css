@@ -66,6 +66,37 @@ body {
     transform: translate(-15%, 100%);
 
 }
+.Login input{
+    display: inline-block;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 100%);
+    transform: translate(-50%, 100%);
+    background: none;
+    outline: none;
+    width: 60%;
+    padding: 5px 5px;
+    margin: 7px 0px;
+    box-sizing: border-box;
+    border: 3px solid #00000098;
+}
+.Login button{
+    display: inline-block;
+    position: relative;
+    top: 15%;
+    left: 60%;
+    -webkit-transform: translate(-66.5%, 100%);
+    transform: translate(-66.5%, 100%);
+    padding: 7px 0px 7px 0px;
+    background-color: #4e46f2;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 60%;
+    margin: 7px 0;
+    color: rgb(228, 228, 228);
+}
 /*.logo_rectangle{
     position: absolute;
     margin-left: 49.5%;
