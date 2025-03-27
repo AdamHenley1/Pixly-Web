@@ -76,6 +76,9 @@ body {
 .Login a{
     color: #4e46f2;
 }
+.Login a:visited{
+    color: #4e46f2;
+}
 .Login input{
     display: inline-block;
     position: relative;
