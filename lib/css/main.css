@@ -93,7 +93,7 @@ body {
     padding: 5px 5px;
     margin: 7px 0px;
     box-sizing: border-box;
-    border: 3px solid #00000098;
+    border: 3px solid #1f1f1f6c;
 }
 .Login button{
     display: inline-block;
