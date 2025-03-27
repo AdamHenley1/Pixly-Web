@@ -60,16 +60,26 @@ body {
 }
 .Login h1{
     position: relative;
-    left: 50%;
-    top: 10%;
-    -webkit-transform: translate(-15%, 100%);
-    transform: translate(-15%, 100%);
+    text-align: center;
+    top: 20%;
+    
 
+}
+.Login p{
+    color: #2b2b2ba9;
+    position: relative;
+    text-align: center;
+    top: 20%;
+    font-size: 0.9em;
+    margin: 7px 0px;
+}
+.Login a{
+    color: #4e46f2;
 }
 .Login input{
     display: inline-block;
     position: relative;
-    top: 15%;
+    top: 12%;
     left: 50%;
     -webkit-transform: translate(-50%, 100%);
     transform: translate(-50%, 100%);
