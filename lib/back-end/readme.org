@@ -1,23 +1,11 @@
-#+title: Back End
+#+title: back-end
 #+author: camilla a.
 
+Just a back-end for this project, don't think too much about it.
 
-* Overview
-Just a back end for Pixly.
-This bit is maintained by ~github.com/vibe-876~.
+* Installation/Usage
 
-I'm writing it in clojure
+First, clone the repo, and go into this directory.
+Then, run ~lein uberjar~.
+Finally, just run it with java.
 
-* "Why Have You Done ~X~ With ~Y~?"
-I'm using a makefile with clojure instead of lein or something like that because I only really like lein for independant projects, and I view this more as a plugin.
-Furthermore, I get the feeling that this is going to be distributed as a binary, so the build system isn't a massive concern for me.
-Also, it's not out of the question that I need to pull in a few more languages (probably java, emacs lisp, or shell), and gnu-make feels like a safe bet for handling that.
-
-I'm using clojure because I was told I need to use a jvm lanugage, and java is gross.
-
-* Build Dependancies
-Where version numbers are given, that just means what I have installed, I probably won't test other things, at least not at the time of writing.
-
-- clojure 1.12
-- java 17
-- gnu make 4.4.1
