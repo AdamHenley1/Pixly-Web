@@ -2,8 +2,10 @@
 #+author: camilla a.
 
 Just a back-end for this project, don't think too much about it.
+Documentation is [[file:doc/intro.org][here]].
 
 * Installation/Usage
+Note more details are given in the docs (see above).
 
 First, clone the repo, and go into this directory.
 Then, run ~lein uberjar~.
