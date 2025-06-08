@@ -1,0 +1,45 @@
+<html lang="en-US">
+    <head>
+		<title>Sign-Up</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no"/>
+        <meta name="description" content="Art Portfolio website">
+        <link rel="stylesheet" type="text/css" href="/main.css"/>
+        <link rel="stylesheet" type="text/css" href="/animation.css"/>
+        <link rel="stylesheet" type="text/css" media="(orientation: portrait)" href="/scale.css"/>
+	</head>
+    <body>
+        <div class="background_circle2">
+        </div>
+        <div class="background_circle1">
+        </div>
+        <div class="Sign-Up glass">
+            <!-- <div class="logo_rectangle">
+            </div> --->
+            <h1>Sign-Up</h1>
+            <p>Already have an account? <a href="/">Login</a> </p>
+            <form action="/register" method="POST">
+                    <input
+                        placeholder="Username"
+                        type="text"
+                        id="username"
+                        name="username"
+                        required
+                        />
+                    <input
+                        placeholder="Password"
+                        type="password"
+                        id="password"
+                        name="password"
+                    required
+                    />
+                    
+                    <button>Sign-Up</button>
+                    <% errors.forEach(error =>{ %>
+                    <p class = "notice"><%= error%></p>
+                    <% }) %>
+            </form>
+        </div>
+    </body>
+
+</html>
