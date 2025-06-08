@@ -18,6 +18,7 @@
     "express": "^5.1.0",
     "nodemon": "^3.1.10",
     "pg": "^8.16.0",
-    "postgres": "^3.4.7"
+    "postgres": "^3.4.7",
+    "serverless-http": "^3.2.0"
   }
 }
