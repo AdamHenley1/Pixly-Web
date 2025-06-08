@@ -3,7 +3,7 @@
 
 This is a personal project that came from A-Level computer science NEA that I wanted to develop more and create a web version and android version for. This is going to be a long term personal project due to me being as of yet the only developer.
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1deacbab-8655-4ffe-b9ce-86dd2ae63b8a/deploy-status)](https://app.netlify.com/projects/pixly/deploys)
 ## Roadmap
 ### [IOS](https://github.com/AdamHenley1/Pixly-IOS)
 - [ ] Login Page
