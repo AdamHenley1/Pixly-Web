@@ -76,4 +76,4 @@ app.post("/register",async (req, res) => {
 });
     // log the user in by giving them a cookie
 
-app.listen(3000)
+app.listen(3000);
