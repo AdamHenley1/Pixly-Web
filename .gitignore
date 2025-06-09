@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 # Local Netlify folder
 .netlify
@@ -48,3 +49,5 @@ next-env.d.ts
 
 .vercel
 >>>>>>> Stashed changes
+=======
+>>>>>>> 32d0f8996e6df71385fcfa959b7fa904883b2814
