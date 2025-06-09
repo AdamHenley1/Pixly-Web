@@ -1,25 +1,30 @@
 {
-  "name": "github",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "pixly",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "nodemon server",
-    "test": "echo \"Error: no test specified\" && exit 1"
-    
+    "dev": "next dev",
+    "postinstall": "prisma generate",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "better-sqlite3": "^11.10.0",
-    "body-parser": "^2.2.0",
-    "dotenv": "^16.5.0",
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "nodemon": "^3.1.10",
-    "pg": "^8.16.0",
-    "postgres": "^3.4.7",
-    "serverless-http": "^3.2.0"
-  }
+    "@prisma/client": "^6.9.0",
+    "@stackframe/stack": "^2.8.12",
+    "next": "15.3.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "prisma": "^6.9.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
 }
