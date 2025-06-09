@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Exo 2', sans-serif;
+}
+:root 
+{
+	color-scheme: light only;
+}
+body {
+    height: 100%;
+    overflow-y: hidden;
+    background-color: #3B3697;
+ }
+
+ .background_circle1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 1100px;
+    width: 1100px;
+    background-color: #7559FFBF;
+    border-radius: 50%;
+    z-index: 0;
+}
+.background_circle2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 700px;
+    width: 700px;
+    background-color: #AB9CFF;
+    border-radius: 50%;
+    z-index: 1;
+}
+.Login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 350px;
+    width: 300px;
+    z-index: 2;
+}
+.Sign-Up{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 350px;
+    width: 300px;
+    z-index: 2;
+}
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.Login h1{
+    position: relative;
+    text-align: center;
+    top: 20%;
+    color: #2b2b2b;
+    
+
+}
+.Login p{
+    color: #2b2b2ba9;
+    position: relative;
+    text-align: center;
+    top: 20%;
+    font-size: 0.9em;
+    margin: 7px 0px;
+}
+.Login a{
+    color: #4e46f2;
+}
+.Login a:visited{
+    color: #4e46f2;
+}
+.login form{
+    display: inline-block;
+    position: relative;
+    top: -10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 100%);
+    transform: translate(-50%, 100%);
+    width: 60%;
+    margin: 7px 0px;
+}
+.Login input{
+    background: none;
+    outline: none;
+    padding: 5px 5px;
+    margin: 7px 0px;
+    box-sizing: border-box;
+    border: 3px solid #1f1f1f6c;
+}
+.Login button{
+    display: inline-block;
+    position: relative;
+    margin-top: -10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 100%);
+    transform: translate(-50%, 100%);
+    padding: 7px 0px 7px 0px;
+    background-color: #4e46f2;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    color: rgb(228, 228, 228);
+}
+.Sign-Up h1{
+    position: relative;
+    text-align: center;
+    top: 20%;
+    color: #2b2b2b;
+    
+
+}
+.Sign-Up p{
+    color: #2b2b2ba9;
+    position: relative;
+    text-align: center;
+    top: 20%;
+    font-size: 0.9em;
+    margin: 7px 0px;
+}
+.Sign-Up a{
+    color: #4e46f2;
+}
+.Sign-Up a:visited{
+    color: #4e46f2;
+}
+.Sign-Up form{
+    display: inline-block;
+    position: relative;
+    top: -10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 100%);
+    transform: translate(-50%, 100%);
+    width: 60%;
+    margin: 7px 0px;
+}
+.Sign-Up input{
+    background: none;
+    outline: none;
+    padding: 5px 5px;
+    margin: 7px 0px;
+    box-sizing: border-box;
+    border: 3px solid #1f1f1f6c;
+}
+.Sign-Up button{
+    display: inline-block;
+    position: relative;
+    margin-top: -10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 100%);
+    transform: translate(-50%, 100%);
+    padding: 7px 0px 7px 0px;
+    background-color: #4e46f2;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    color: rgb(228, 228, 228);
+}
+.Sign-Up form p{
+    position: absolute;
+    top: 125%;
+}
+/*.logo_rectangle{
+    position: absolute;
+    margin-left: 49.5%;
+    margin-top: 21%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg); 
+    transform: rotate(45deg);
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    animation-name: example;
+    animation-duration: 4s;
+    z-index: 5;
+}*/
