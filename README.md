@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# About this project
 
-First, run the development server:
+This is a personal project that came from A-Level computer science NEA that I wanted to develop more and create a web version and android version for. This is going to be a long term personal project due to me being as of yet the only developer.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1deacbab-8655-4ffe-b9ce-86dd2ae63b8a/deploy-status)](https://app.netlify.com/projects/pixly/deploys)
+## Roadmap
+### [IOS](https://github.com/AdamHenley1/Pixly-IOS)
+- [ ] Login Page
+  - [X] Front end
+    - [X]  Easy to use and read  
+    - [X] Colours aren't to severe in contrast and not over bearing
+  - [ ] Back end (once a server has been aquired)
+    - [ ] Call to the server and see if the username has a match and if so compare passwords
+- [ ] Sign up page
+  - [X] Front end
+    - [X] Easy to use and read  
+    - [X] Colours aren't to severe in contrast and not over bearing 
+  - [ ] Back end (once a server has been aquired)
+    - [ ] call to the server to see if username is available
+    - [ ] Securely store login details
+- [ ] Home page
+  - [ ] Grid of photos of artists and profiles you follow
+- [ ] Settings
+  - [ ] Themes settings that gives the user full customisation on the colours they want Pixly to look like (with presets)
+  - [X] Signout button
+  - [ ] Account Deletion
+- [ ] profile page
+  - [ ] Can add a profile picture
+  - [ ] Add photos
+  - [ ] See photos in a grid
+    - [ ] ability to full screen images to see them more clearly  
+- [ ] search page
+  - [ ] Grid of photos based on tagged searches you and similar people have 
+### [WEB](https://github.com/AdamHenley1/Pixly-Web)
+- [ ] Yet to be implimented
+### [Android](https://github.com/AdamHenley1/Pixly-Android)
+- [ ] Yet to be implimented
+## Appendix
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The app for IOS isnt published yet due to costs and being a solo developer on this I can't guarantee it ever will, however I have plans to make a android version and a web version that should be usuable
