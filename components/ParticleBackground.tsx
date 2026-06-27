@@ -6,11 +6,9 @@ import { loadSlim } from "@tsparticles/slim";
 
 export default function ParticleBackground() {
   useEffect(() => {
-    let container: { destroy: () => void } | null = null;
+    let container: any = null;
 
     loadSlim(tsParticles).then(async () => {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        let container: any = null;
         container = await tsParticles.load({
         id: "tsparticles",
         options: {
