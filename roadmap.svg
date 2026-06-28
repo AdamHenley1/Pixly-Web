@@ -1,0 +1,128 @@
+<svg viewBox="0 0 700 920" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>
+      .label { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+      .title { font-size: 15px; font-weight: 600; fill: #1a1a1a; }
+      .item-done { font-size: 12px; fill: #aaa; text-decoration: line-through; }
+      .item-todo { font-size: 12px; fill: #555; }
+      .tag { font-size: 10px; font-weight: 600; }
+    </style>
+  </defs>
+
+  <!-- bg -->
+  <rect width="700" height="920" fill="#ffffff" rx="12"/>
+
+  <!-- heading -->
+  <text x="40" y="48" font-size="20" font-weight="700" fill="#1a1a1a">Pixly — Roadmap</text>
+
+  <!-- ─── PHASE 1 ─── -->
+  <!-- dot -->
+  <circle cx="60" cy="96" r="16" fill="#e6f9f0" stroke="#34c77b" stroke-width="2"/>
+  <text x="60" y="100" text-anchor="middle" font-size="13" fill="#1d9e75">✓</text>
+  <!-- line -->
+  <line x1="60" y1="112" x2="60" y2="198" stroke="#34c77b" stroke-width="2"/>
+  <!-- label -->
+  <text x="88" y="91" class="label" fill="#1d9e75">Phase 1 — complete</text>
+  <!-- title -->
+  <text x="88" y="109" class="title">Foundation</text>
+  <rect x="192" y="95" width="36" height="16" rx="4" fill="#e6f1fb"/>
+  <text x="210" y="107" text-anchor="middle" class="tag" fill="#185fa5">Web</text>
+  <!-- items -->
+  <circle cx="96" cy="126" r="5" fill="#e6f9f0" stroke="#34c77b" stroke-width="1.5"/>
+  <text x="108" y="130" class="item-done">Next.js + Supabase + Vercel scaffold</text>
+  <circle cx="96" cy="144" r="5" fill="#e6f9f0" stroke="#34c77b" stroke-width="1.5"/>
+  <text x="108" y="148" class="item-done">Route protection middleware</text>
+  <circle cx="96" cy="162" r="5" fill="#e6f9f0" stroke="#34c77b" stroke-width="1.5"/>
+  <text x="108" y="166" class="item-done">Login + sign up — front end &amp; auth</text>
+  <circle cx="96" cy="180" r="5" fill="#e6f9f0" stroke="#34c77b" stroke-width="1.5"/>
+  <text x="108" y="184" class="item-done">Email verification on sign up</text>
+
+  <!-- ─── PHASE 2 ─── -->
+  <circle cx="60" cy="218" r="16" fill="#e6f1fb" stroke="#378add" stroke-width="2"/>
+  <text x="60" y="223" text-anchor="middle" font-size="13" fill="#185fa5">⌨</text>
+  <line x1="60" y1="234" x2="60" y2="356" stroke="#c0d8ef" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="88" y="213" class="label" fill="#185fa5">Phase 2 — in progress</text>
+  <text x="88" y="231" class="title">Core experience</text>
+  <rect x="226" y="217" width="36" height="16" rx="4" fill="#e6f1fb"/>
+  <text x="244" y="229" text-anchor="middle" class="tag" fill="#185fa5">Web</text>
+  <circle cx="96" cy="248" r="5" fill="none" stroke="#c0c0c0" stroke-width="1.5"/>
+  <text x="108" y="252" class="item-todo">User profile page</text>
+  <circle cx="96" cy="266" r="5" fill="none" stroke="#c0c0c0" stroke-width="1.5"/>
+  <text x="108" y="270" class="item-todo">Profile picture upload</text>
+  <circle cx="96" cy="284" r="5" fill="none" stroke="#c0c0c0" stroke-width="1.5"/>
+  <text x="108" y="288" class="item-todo">Post artwork (image upload)</text>
+  <circle cx="96" cy="302" r="5" fill="none" stroke="#c0c0c0" stroke-width="1.5"/>
+  <text x="108" y="306" class="item-todo">Artwork grid view + full-screen viewer</text>
+  <circle cx="96" cy="320" r="5" fill="none" stroke="#c0c0c0" stroke-width="1.5"/>
+  <text x="108" y="324" class="item-todo">Password reset via email</text>
+
+  <!-- ─── PHASE 3 ─── -->
+  <circle cx="60" cy="376" r="16" fill="#f5f5f5" stroke="#d0d0d0" stroke-width="2"/>
+  <text x="60" y="381" text-anchor="middle" font-size="13" fill="#999">◎</text>
+  <line x1="60" y1="392" x2="60" y2="466" stroke="#e0e0e0" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="88" y="371" class="label" fill="#999">Phase 3 — planned</text>
+  <text x="88" y="389" class="title">Discovery</text>
+  <rect x="172" y="375" width="36" height="16" rx="4" fill="#e6f1fb"/>
+  <text x="190" y="387" text-anchor="middle" class="tag" fill="#185fa5">Web</text>
+  <circle cx="96" cy="406" r="5" fill="none" stroke="#d0d0d0" stroke-width="1.5"/>
+  <text x="108" y="410" class="item-todo">Hashtag / genre tagging on posts</text>
+  <circle cx="96" cy="424" r="5" fill="none" stroke="#d0d0d0" stroke-width="1.5"/>
+  <text x="108" y="428" class="item-todo">Search by username or hashtag</text>
+  <circle cx="96" cy="442" r="5" fill="none" stroke="#d0d0d0" stroke-width="1.5"/>
+  <text x="108" y="446" class="item-todo">Genre-filtered browse feed</text>
+
+  <!-- ─── PHASE 4 ─── -->
+  <circle cx="60" cy="486" r="16" fill="#f5f5f5" stroke="#d0d0d0" stroke-width="2"/>
+  <text x="60" y="491" text-anchor="middle" font-size="13" fill="#999">⊞</text>
+  <line x1="60" y1="502" x2="60" y2="576" stroke="#e0e0e0" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="88" y="481" class="label" fill="#999">Phase 4 — planned</text>
+  <text x="88" y="499" class="title">Moodboard</text>
+  <rect x="182" y="485" width="36" height="16" rx="4" fill="#e6f1fb"/>
+  <text x="200" y="497" text-anchor="middle" class="tag" fill="#185fa5">Web</text>
+  <circle cx="96" cy="516" r="5" fill="none" stroke="#d0d0d0" stroke-width="1.5"/>
+  <text x="108" y="520" class="item-todo">Save posts to moodboard</text>
+  <circle cx="96" cy="534" r="5" fill="none" stroke="#d0d0d0" stroke-width="1.5"/>
+  <text x="108" y="538" class="item-todo">Drag-and-drop organisation</text>
+  <circle cx="96" cy="552" r="5" fill="none" stroke="#d0d0d0" stroke-width="1.5"/>
+  <text x="108" y="556" class="item-todo">Group and label clusters</text>
+
+  <!-- ─── PHASE 5 ─── -->
+  <circle cx="60" cy="596" r="16" fill="#f5f5f5" stroke="#d0d0d0" stroke-width="2"/>
+  <text x="60" y="601" text-anchor="middle" font-size="13" fill="#999">⚙</text>
+  <line x1="60" y1="612" x2="60" y2="686" stroke="#e0e0e0" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="88" y="591" class="label" fill="#999">Phase 5 — planned</text>
+  <text x="88" y="609" class="title">Polish + settings</text>
+  <rect x="200" y="595" width="36" height="16" rx="4" fill="#e6f1fb"/>
+  <text x="218" y="607" text-anchor="middle" class="tag" fill="#185fa5">Web</text>
+  <circle cx="96" cy="626" r="5" fill="none" stroke="#d0d0d0" stroke-width="1.5"/>
+  <text x="108" y="630" class="item-todo">Theme customisation with presets</text>
+  <circle cx="96" cy="644" r="5" fill="none" stroke="#d0d0d0" stroke-width="1.5"/>
+  <text x="108" y="648" class="item-todo">Change password</text>
+  <circle cx="96" cy="662" r="5" fill="none" stroke="#d0d0d0" stroke-width="1.5"/>
+  <text x="108" y="666" class="item-todo">Account deletion</text>
+
+  <!-- ─── PHASE 6 ─── -->
+  <circle cx="60" cy="706" r="16" fill="#f5f5f5" stroke="#d0d0d0" stroke-width="2"/>
+  <text x="60" y="711" text-anchor="middle" font-size="13" fill="#999">A</text>
+  <line x1="60" y1="722" x2="60" y2="778" stroke="#e0e0e0" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="88" y="701" class="label" fill="#999">Phase 6 — future</text>
+  <text x="88" y="719" class="title">Android</text>
+  <rect x="163" y="705" width="52" height="16" rx="4" fill="#eaf3de"/>
+  <text x="189" y="717" text-anchor="middle" class="tag" fill="#3b6d11">Android</text>
+  <circle cx="96" cy="736" r="5" fill="none" stroke="#d0d0d0" stroke-width="1.5"/>
+  <text x="108" y="740" class="item-todo">Begin after web reaches stable v1</text>
+
+  <!-- ─── PHASE 7 ─── -->
+  <circle cx="60" cy="798" r="16" fill="#f5f5f5" stroke="#d0d0d0" stroke-width="2"/>
+  <text x="60" y="803" text-anchor="middle" font-size="13" fill="#999"></text>
+  <text x="88" y="793" class="label" fill="#999">Phase 7 — future</text>
+  <text x="88" y="811" class="title">iOS</text>
+  <rect x="120" y="797" width="26" height="16" rx="4" fill="#eeedfe"/>
+  <text x="133" y="809" text-anchor="middle" class="tag" fill="#534ab7">iOS</text>
+  <circle cx="96" cy="828" r="5" fill="none" stroke="#d0d0d0" stroke-width="1.5"/>
+  <text x="108" y="832" class="item-todo">Rebuilt from scratch after Android</text>
+
+  <!-- footer -->
+  <line x1="40" y1="870" x2="660" y2="870" stroke="#e8e8e8" stroke-width="1"/>
+  <text x="40" y="892" font-size="11" fill="#bbb">Solo project by Adam Henley · pixly-web.vercel.app</text>
+</svg>
