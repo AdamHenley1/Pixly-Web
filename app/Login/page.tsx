@@ -49,7 +49,7 @@ export default function LoginPage() {
 
         <p className="text-sm text-white/50">
           New here?{" "}
-          <a href="/Signup" className="text-purple-400 hover:text-purple-300 transition-colors">Sign up</a>
+          <a href="/Sign_up" className="text-purple-400 hover:text-purple-300 transition-colors">Sign up</a>
         </p>
       </div>
     </main>
